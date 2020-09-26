@@ -37,13 +37,31 @@ public class Test2 {
 
 
             for (int i = 0 ; i< MainString.length() ; i++) {
-                System.out.print("" + Array[i]);
+                System.out.println("" + Array[i]);
+            }
+
+            char Array1 = 'o';
+            char Array2 = 'o';
+            for (int i = 0 ; i < S1.length() ; i++){
+
+                Array1 = S1.charAt(i);
+
+                System.out.print(""+Array1);
+
+            }
+
+            System.out.println("");
+
+            for(int i =0 ; i<S2.length() ; i++){
+                Array2 = S2.charAt(i);
+                System.out.print(""+Array2);
             }
 
 
-
-
-
         }
+    }
+
+    public static void (){
+
     }
 }
