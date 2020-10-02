@@ -42,6 +42,7 @@ public class Test2 {
 
             char Array1 = 'o';
             char Array2 = 'o';
+
             for (int i = 0 ; i < S1.length() ; i++){
 
                 Array1 = S1.charAt(i);
@@ -61,7 +62,7 @@ public class Test2 {
         }
     }
 
-    public static void (){
+    /*public static void (){
 
-    }
+    }*/
 }
